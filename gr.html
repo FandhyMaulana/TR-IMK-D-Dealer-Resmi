@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap" />
+    <title>Sport > GR 86</title>
+    <link rel="shortcut icon" href="/img/Nasmoco.png" type="image/png" />
+    <style>
+
+      .header {
+        background-color: #00063e;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        position: relative;
+      }
+
+      .back-icon {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      .color-carousel {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .color-carousel img {
+        width: 50px; /* Adjust the size as needed */
+        cursor: pointer;}
+
+        p {
+        color: #000000;
+        white-space: pre-line;
+        text-align: justify;
+      }
+
+      .card-text {
+        color: white;
+      }
+      .card-title {
+        font-weight: bold;
+        color: white;
+      }
+
+      .features {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+      }
+
+      .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="back-icon">
+        <a href="katalog.html">
+          <!-- You can replace the arrow icon with your preferred back icon -->
+          <img src="/img/back.png" alt="Back" width="30" />
+        </a>
+      </div>
+      <h1>Deskripsi Produk</h1>
+    </header>
+
+</header>
+<div class="container">
+  <div class="mobil">
+    <img src="/img/gr.png" alt="Gambar atas" class="img-fluid width" />
+    <section class="features">
+      <div class="feature">
+        <div class="icon-background">
+          <img src="/img/displacement.png" alt="Icon 1" class="img-fluid icon" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Displacement</h5>
+          <h5 class="card-text">1,988 CC</h5>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon-background">
+          <img src="/img/abs.png" alt="Icon 2" class="img-fluid icon" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Brake System</h5>
+          <h5 class="card-text">ABS</h5>
+        </div>
+      </div>
+
+      <div class="feature">
+        <div class="icon-background">
+          <img src="/img/transmission.png" alt="Icon 3" class="img-fluid icon" />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Transmission</h5>
+          <h5 class="card-text">6 Speed</h5>
+        </div>
+</section>
+  </div>
+</div>
+
+    <div>
+      <h2>Toyota GR 86</h2>
+
+      <h5>Spesifikasi</h5>
+      <p>Dari sisi dimensi toyota 86 hadir dengan panjang 4.265 mm, lebar toyota 86 1.775 mm dan tinggi toyota 86 adalah 1.310 mm. Mobil ini memiliki jarak poros sebesar 2.575 mm dengan Ground Clearance 130 mm.</p>
+      <p>Mesin Toyota GR 86 ini menggunakan mesin bertipe 4-cylinders, horizontally-opposed, DOHC, 16-valves. Mesin tersebut mobil ini dapat menghasilkan tenaga hingga 173 (235) / 7.000 ps/rpm dengan besaran silinder hingga 2.387 cc.</p>
+      <p>Torsi yang dapat dihasilkan mobil 86 ini adalah 250 (25,5) / 3.700 kgf/rpm. Menggunakan bahan bakar berupa Gasoline dengan octane 98 RON atau lebih. Kapasitas tangki Toyota GR 86 ini mampu menampung bahan bakar hingga 50 L.</p>
+    </div>
+
+    <div class="color-carousel">
+      <img src="/img/gr1.png" alt="Color 1" onclick="changeCarColor('/img/gr1.png')" />
+      <img src="/img/gr2.png" alt="Color 2" onclick="changeCarColor('/img/gr2.png')" />
+      <img src="/img/gr3.png" alt="Color 3" onclick="changeCarColor('/img/gr3.png')" />
+      <img src="/img/gr4.png" alt="Color 4" onclick="changeCarColor('/img/gr4.png')" />
+      <img src="/img/gr5.png" alt="Color 5" onclick="changeCarColor('/img/gr5.png')" />
+      <img src="/img/gr6.png" alt="Color 6" onclick="changeCarColor('/img/gr6.png')" />
+      <img src="/img/gr7.png" alt="Color 7" onclick="changeCarColor('/img/gr7.png')" />
+    </div>
+
+    <div>
+      <button>Pesan Sekarang</button>
+    </div>
+    <footer class="bg-light text-center text-lg-start">
+        <center><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2024 Copyright:Nasmoco
+            <a class="text-dark" href="https://nasmoco.co.id/">Nasmoco - TR Dealer Mobil</a>
+          </div></center>
+      </footer>
+  </body>
+</html>

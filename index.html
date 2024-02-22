@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TR Dealer Mobil</title>
+    <link rel="shortcut icon" href="/img/Nasmoco.png" type="image/png" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap">
+  </head>
+
+  <body class="light-mode">
+    <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="/img/logo.png" alt="Logo" width="224" height="30" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="katalog.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Catalog </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="katalog.html#Hatchback">Hatchback</a></li>
+                <li><a class="dropdown-item" href="katalog.html#MPV">MPV</a></li>
+                <li><a class="dropdown-item" href="katalog.html#SUV">SUV</a></li>
+                <li><a class="dropdown-item" href="katalog.html#Sedan">Sedan</a></li>
+                <li><a class="dropdown-item" href="katalog.html#Sport">Sport</a></li>
+                <li><a class="dropdown-item" href="katalog.html#Commercial">Commercial</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#Reco">Recommendation Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Special">Special Offer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#News">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+              <input type="checkbox" id="dark-mode-switch">
+  <label for="dark-mode-switch">Toggle Dark Mode</label>
+  <script>
+    document.getElementById('dark-mode-switch').addEventListener('change', function() {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselPromo" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/promo 1.jpg" class="d-block w-100" alt="Promo 1" style="height: 600px" />
+      </div>
+      <div class="carousel-item">
+        <img src="/img/promo 2.jpg" class="d-block w-100" alt="Promo 2" style="height: 600px" />
+      </div>
+      <div class="carousel-item">
+        <img src="/img/promo 3.jpg" class="d-block w-100" alt="Promo 3" style="height: 600px" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselPromo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselPromo" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+    <div class="container my-3">
+      <div class="btn-group" role="group" aria-label="Button group">
+
+        <button type="button" class="btn box-shadow">
+          <img src="img/01.png" alt="Logo 1" class="me-2" />
+          Call Center
+        </button>
+
+        <button type="button" class="btn box-shadow">
+          <img src="img/02.png" alt="Logo 2" class="me-2" />
+          Asuransi Kendaraan
+        </button>
+        <button type="button" class="btn box-shadow">
+          <img src="img/03.png" alt="Logo 3" class="me-2" />
+          Trade In
+        </button>
+
+        <button type="button" class="btn box-shadow">
+          <img src="img/04.png" alt="Logo 4" class="me-2" />
+          Bengkel
+        </button>
+    </div>
+
+    <hr class="my-4" />
+
+    <section class="container my-5">
+      <h2>Find Your Dream Car</h2>
+      <div class="section-filter">
+        <div class="b-filter__inner bg-grey container">
+          <h2>Cari Mobil Sesuai Kebutuhan</h2>
+          <form class="b-filter">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group"></div>
+                <div class="form-group">
+                  <div class="btn-group bootstrap-select">
+                    <select class="selectpicker" data-width="100%" tabindex="-98">
+                      <option>Jenis mobil yang diinginkan</option>
+                      <option>Mobil mini dengan mobilitas tinggi</option>
+                      <option>Mobil segala medan dan bertenaga</option>
+                      <option>Mobil keluarga</option>
+                      <option>Mobil perkotaan atau sedan</option>
+                      <option>Mobil untuk usaha atau bisnis</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group"></div>
+                <div class="form-group">
+                  <div class="btn-group bootstrap-select">
+                    <select class="selectpicker" data-width="100%" tabindex="-98">
+                      <option>Pertimbangan dalam membeli mobil</option>
+                      <option>Harga murah</option>
+                      <option>Fitur mumpuni</option>
+                      <option>Lifestyle dan Status sosial</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+               <center><button class="btn btn-lg btn-primary find-btn">Find</button></center> 
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5"  id="Reco">
+      <h2>Recommendation Product</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="/img/3_white-metallic.png" alt="Car 1" class="img-fluid" />
+          <h3>Toyota Supra</h3>
+          <p>Rp 2.226.000.000</p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </div>
+        <div class="col-md-4">
+          <img src="/img/3-crystal-black-silica.png" alt="Car 1" class="img-fluid" />
+          <h3>Toyota GR</h3>
+          <p>Rp 922.000.000</p>
+          <button type="button" class="btn btn-primary">
+            <a href="gr.html">Learn More</a></button>
+        </div>
+        <div class="col-md-4">
+          <img src="/img/01-two-tone-black-precious-metal.png" alt="Car 1" class="img-fluid" />
+          <h3>Toyota BZ4X</h3>
+          <p>Rp 922.000.000</p>
+          <button type="button" class="btn btn-primary">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5" id="Special">
+      <h2>Special Offer</h2>
+    </section>
+   <section style="margin: 0 auto; width: fit-content;">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/WhatsApp-Image-2023-09-14-at-15.21.30-2.jpeg" alt="Promo 1" />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/WhatsApp-Image-2023-09-14-at-15.21.31-2 (1).jpeg" alt="Promo 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="/img/WhatsApp-Image-2023-09-14-at-15.21.31.jpeg" alt="Promo 3" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="container-fluid" id="Service">
+      <h2>We Serve You Better</h2>
+    
+      <div class="row">
+        <div class="col-md-5 offset-md-1 mt-5">
+          <div class="main-container">
+            <div class="icon-background">
+              <img src="/img/bookingservice.png" alt="Icon 1" class="img-fluid icon" />
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">BOOKING SERVICE</h5>
+              <p class="card-text">Nasmoco menawarkan jasa perbaikan dan perawatan untuk memenuhi kebutuhan mobil Anda</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 mt-5">
+          <div class="main-container">
+            <div class="icon-background">
+              <img src="/img/general repair.png" alt="Icon 2" class="img-fluid icon" />
+            </div>
+    
+            <div class="card-body">
+              <h5 class="card-title">GENERAL REPAIR</h5>
+              <p class="card-text">Nasmoco menawarkan jasa perbaikan dan perawatan untuk memenuhi kebutuhan mobil Anda</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="col-md-5 offset-md-1 mt-5">
+          <div class="main-container">
+            
+            <div class="icon-background">
+              
+              <img src="/img/body paint.png" alt="Icon 3" class="img-fluid icon" />
+            </div>
+    
+            <div class="card-body">
+              <h5 class="card-title">BODY & PAINT</h5>
+              <p class="card-text">Nasmoco menyediakan layanan body & paint untuk perbaikan body kendaraan Anda mulai dari kerusakan ringan, sedang, hingga berat. Nasmoco juga menyediakan layanan paint untuk meremajakan warna mobil Anda</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5 mt-5">
+          <div class="main-container">
+            <div class="icon-background">
+              <img src="/img/sparepart.png" alt="Icon 4" class="img-fluid icon" />
+            </div>
+
+            <div class="card-body">
+              <h5 class="card-title">SPAREPART & ACCESSORIES</h5>
+              <p class="card-text">Nasmoco menyediakan sparepart dan aksesorisNasmoco menyediakan sparepart dan aksesoris yang dirancang, dibuat, diuji, dan disertifikasi untuk digunakan pada kendaraan Anda</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="container my-5" id="News">
+      <h2>Berita</h2>
+      <div class="row">
+        <div class="col-xl-4">
+          <img src="/img/berita.jpg" alt="News 1" class="img-fluid" />
+          <h3></h3>Toyota Umumkan Top 3 Toyota Rangga Concept Digital Modification Contest
+          <p>16 Februari 2024</p>
+          <a href="berita.html" class="btn btn-primary">Read More</a>
+        </div>
+        <div class="col-xl-4">
+          <img src="/img/berita2.jpg" alt="News 2" class="img-fluid" />
+          <h3>Promo HUJAN Avanza</h3>
+          <p>Dapatkan promo low DP</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+        <div class="col-xl-4">
+          <img src="/img/berita3.jpg" alt="News 3" class="img-fluid" />
+          <h3>TOYOTA SPEKTAKULER</h3>
+          <p>Rasakan beli dengan beragam paket</p>
+          <a href="#" class="btn btn-primary">Read More</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <h2>Apa yang Unggul dari Dealer Kami</h2>
+      <div class="row mt-5">
+        <div class="col-sm-3 d-flex flex-column align-items-center">
+          <img src="/img/icon-first-class-delivery.png" alt="Feature 1" class="img-fluid" />
+          <p class="text-center">First Class Delivery</p>
+        </div>
+        <div class="col-sm-3 d-flex flex-column align-items-center">
+          <img src="/img/icon-layanan-service-kami-24-jam.png" alt="Feature 2" class="img-fluid" />
+          <p class="text-center">Layanan Service 24 Jam</p>
+        </div>
+        <div class="col-sm-3 d-flex flex-column align-items-center">
+          <img src="/img/icon-online-order-tracking.png" alt="Feature 3" class="img-fluid" />
+          <p class="text-center">Online Order Tracking</p>
+        </div>
+        <div class="col-sm-3 d-flex flex-column align-items-center">
+          <img src="/img/icon-optimal-purchase-awareness.png" alt="Feature 4" class="img-fluid" />
+          <p class="text-center">Purchase Awareness</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-light text-center text-lg-start">
+       <center><div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:Nasmoco
+        <a class="text-dark" href="https://nasmoco.co.id/">Nasmoco - TR Dealer Mobil</a>
+      </div></center>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
